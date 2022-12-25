@@ -20,6 +20,20 @@
     color: #2E2F42;
     text-decoration: none;}
 
+    .nav-site {list-style-type: none;}
+
+.nav-studio, .nav-portfolio, .nav-contacts {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2E2F42;    
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+    text-decoration: none;}    
 
  
  
@@ -31,7 +45,7 @@
 
     .footer {background: #2E2F42;}
     .footer-studio {color: #F4F4FD; }
-    .footer > .footer-text {
+    .footer-text {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
