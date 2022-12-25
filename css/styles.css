@@ -1,0 +1,41 @@
+/* header */
+
+.web {display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+    color: #4D5AE5;}
+
+.logo {width: 71px;
+    height: 24px;    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    text-decoration: none;}
+
+
+ 
+ 
+
+
+
+
+/* footer */
+
+    .footer {background: #2E2F42;}
+    .footer-studio {color: #F4F4FD; }
+    .footer > .footer-text {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #E7E9FC;}
