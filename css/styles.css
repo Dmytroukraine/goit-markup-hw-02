@@ -20,7 +20,7 @@
     color: #2E2F42;
     text-decoration: none;}
 
-    .nav-site {list-style-type: none;}
+ul {list-style-type: none;}
 
 .nav-studio, .nav-portfolio, .nav-contacts {
     font-family: 'Roboto';
