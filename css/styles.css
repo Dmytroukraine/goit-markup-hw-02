@@ -110,6 +110,7 @@ ul {list-style-type: none;}
 
 /* our team */
 
+.team {background: #F4F4FD;}
 .team-header {font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
