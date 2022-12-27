@@ -6,14 +6,12 @@
     --second-text-color:#FFFFFF;
     --accent-color:#4D5AE5;
     --head-background-color:#E5E5E5;
-    --other-background-color: #F4F4FD;
-}
+    --other-background-color: #F4F4FD;}
 
 /* body */
 
 body {color:var(--primary-text-color);
     background-color:var(--head-background-color);}
-
 ul {list-style-type: none;}
 
 /* header */
@@ -23,7 +21,6 @@ ul {list-style-type: none;}
     letter-spacing: 0.03em;
     text-transform: uppercase;    
     color:var(--accent-color);}
-
 .logo {width: 71px;
     height: 24px;    
     font-family: 'Raleway';
@@ -37,7 +34,6 @@ ul {list-style-type: none;}
     text-transform: uppercase;
     color: var(--title-text-color);
     text-decoration: none;}
-
 .nav .link{
     font-family: 'Roboto';
     font-style: normal;
@@ -55,12 +51,6 @@ ul {list-style-type: none;}
 .nav .link:hover {color:var(--accent-color);}
 .nav .link.current:focus, 
 .nav .link:focus {color:var(--accent-color);}
-
-    
-
-   
-    
-
 .header-mail, .header-tel {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -69,18 +59,14 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
     text-decoration: none;} 
- 
-.header-mail:hover,
+ .header-mail:hover,
 .header-tel:hover  {color:var(--accent-color);}    
-
 .header-mail:focus,
 .header-tel:focus  {color:var(--accent-color);}    
-
 
 /* block hero */
 
 .header {background:var(--title-text-color);}
-
 .header-div {font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -109,10 +95,8 @@ ul {list-style-type: none;}
     border-radius: 4px;
     width: 170px;
     height: 51px;}
-
 .button.primary {color: var(--second-text-color);
-    background-color: var(--accent-color);
-}    
+    background-color: var(--accent-color);}    
 .button.secondary {color: var(--accent-color);
 background-color: var(--other-background-color) ;}
 
