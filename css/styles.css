@@ -1,3 +1,10 @@
+/* body */
+
+body {color: color: #434455;
+    background-color: #E5E5E5;}
+
+ul {list-style-type: none;}
+
 /* header */
 
 .web {display: flex;
@@ -20,8 +27,6 @@
     color: #2E2F42;
     text-decoration: none;}
 
-ul {list-style-type: none;}
-
 .nav-studio, .nav-portfolio, .nav-contacts {
     font-family: 'Roboto';
     font-style: normal;
@@ -33,7 +38,16 @@ ul {list-style-type: none;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-    text-decoration: none;}    
+    text-decoration: none;}  
+    
+    .nav-studio:hover, 
+    .nav-portfolio:hover, 
+    .nav-contacts:hover {color: blue;}
+
+    .nav-studio:focus, 
+    .nav-portfolio:focus, 
+    .nav-contacts:focus {color: blue;}
+    
 
 .header-mail, .header-tel {font-family: 'Roboto';
     font-style: normal;
@@ -44,6 +58,12 @@ ul {list-style-type: none;}
     color: #434455;
     text-decoration: none;} 
  
+.header-mail:hover,
+.header-tel:hover  {color: blue;}    
+
+.header-mail:focus,
+.header-tel:focus  {color: blue;}    
+
 
 /* block hero */
 
