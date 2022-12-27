@@ -1,13 +1,16 @@
 :root {
     --primary-text-color:#434455;
     --title-text-color:#2E2F42;
+    --second-text-color:#FFFFFF;
     --accent-color:#4D5AE5;
+    --head-background-color:#E5E5E5;
+    --other-background-color: #F4F4FD;
 }
 
 /* body */
 
 body {color:var(--primary-text-color);
-    background-color: #E5E5E5;}
+    background-color:var(--head-background-color);}
 
 ul {list-style-type: none;}
 
@@ -17,7 +20,7 @@ ul {list-style-type: none;}
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;    
-    color: #4D5AE5;}
+    color:var(--accent-color);}
 
 .logo {width: 71px;
     height: 24px;    
@@ -48,11 +51,11 @@ ul {list-style-type: none;}
     
     .nav-studio:hover, 
     .nav-portfolio:hover, 
-    .nav-contacts:hover {color: blue;}
+    .nav-contacts:hover {color:var(--accent-color);}
 
     .nav-studio:focus, 
     .nav-portfolio:focus, 
-    .nav-contacts:focus {color: blue;}
+    .nav-contacts:focus {color:var(--accent-color);}
     
 
 .header-mail, .header-tel {font-family: 'Roboto';
@@ -65,10 +68,10 @@ ul {list-style-type: none;}
     text-decoration: none;} 
  
 .header-mail:hover,
-.header-tel:hover  {color: blue;}    
+.header-tel:hover  {color:var(--accent-color);}    
 
 .header-mail:focus,
-.header-tel:focus  {color: blue;}    
+.header-tel:focus  {color:var(--accent-color);}    
 
 
 /* block hero */
@@ -82,7 +85,7 @@ ul {list-style-type: none;}
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;}
+    color:var(--second-text-color);}
 
 /* button */
 
@@ -94,11 +97,11 @@ ul {list-style-type: none;}
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color:var(--second-text-color);
     flex: none;
     order: 0;
     flex-grow: 0;
-    background: #4D5AE5;
+    background:var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 170px;
@@ -136,7 +139,7 @@ ul {list-style-type: none;}
 
 /* our team */
 
-.team {background: #F4F4FD;}
+.team {background:var(--other-background-color);}
 .team-header {font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -169,7 +172,7 @@ ul {list-style-type: none;}
 /* footer */
 
     .footer {background: var(--title-text-color);}
-    .footer-studio {color: #F4F4FD; }
+    .footer-studio {color: var(--other-background-color); }
     .footer-text {
         font-family: 'Roboto';
         font-style: normal;
