@@ -51,7 +51,7 @@ ul {list-style-type: none;}
 .nav .link:hover {color:var(--accent-color);}
 .nav .link.current:focus, 
 .nav .link:focus {color:var(--accent-color);}
-.header-mail, .header-tel {font-family: 'Roboto';
+.mail .address {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -59,10 +59,8 @@ ul {list-style-type: none;}
     letter-spacing: 0.02em;
     color:var(--primary-text-color);
     text-decoration: none;} 
- .header-mail:hover,
-.header-tel:hover  {color:var(--accent-color);}    
-.header-mail:focus,
-.header-tel:focus  {color:var(--accent-color);}    
+.mail .address:hover  {color:var(--accent-color);}    
+.mail .address:focus  {color:var(--accent-color);}    
 
 /* block hero */
 
@@ -174,3 +172,11 @@ background-color: var(--other-background-color) ;}
         line-height: 24px;
         letter-spacing: 0.02em;
         color: #E7E9FC;}
+
+
+
+
+        /* hiden title */
+
+    .hide {display: none;
+        transition: all ease 0.8s;}    
