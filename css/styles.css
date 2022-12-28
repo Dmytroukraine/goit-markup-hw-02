@@ -51,7 +51,7 @@ ul {list-style-type: none;}
 .nav .link:hover {color:var(--accent-color);}
 .nav .link.current:focus, 
 .nav .link:focus {color:var(--accent-color);}
-.mail .address {font-family: 'Roboto';
+.mail .address, .li .style {font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
