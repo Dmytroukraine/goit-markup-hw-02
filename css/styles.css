@@ -114,6 +114,102 @@ ul {list-style-type: none;}
     height: 48px;
     padding: 8px 16px;}
 
+.button.web {color:var(--second-text-color); 
+    background:var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 116px;
+    height: 48px;}
+
+.button.app {color:var(--second-text-color); 
+        background:var(--accent-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 8px 16px;
+        width: 78px;
+        height: 48px;}
+
+.button.app {color:var(--second-text-color); 
+        background:var(--accent-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 8px 16px;
+        width: 78px;
+        height: 48px;} 
+        
+.button.desing {color:var(--second-text-color); 
+        background:var(--accent-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 8px 16px;
+        width: 101px;
+        height: 48px;} 
+        
+.button.marketing {color:var(--second-text-color); 
+        background:var(--accent-color);
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 8px 16px;
+        width: 126px;
+        height: 48px;}         
+
+
 .button.primary {color: var(--second-text-color);
     background-color: var(--accent-color);}    
 .button.secondary {color: var(--accent-color);
