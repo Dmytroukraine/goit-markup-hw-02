@@ -92,11 +92,37 @@ ul {list-style-type: none;}
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     width: 170px;
-    height: 51px;}
+    height: 51px;
+    padding-left: 32px;}
+
+.button.all {color:var(--second-text-color); 
+    background:var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 69px;
+    height: 48px;
+    padding: 8px 16px;}
+
 .button.primary {color: var(--second-text-color);
     background-color: var(--accent-color);}    
 .button.secondary {color: var(--accent-color);
 background-color: var(--other-background-color) ;}
+
+/* .button.primary:hover {color: var(--second-text-color);}
+.button.secondary:hover {color: var(--accent-color);}
+.button.primary:focus {color: var(--accent-color);}
+.button.secondary:focus {color: var(--second-text-color);} */
 
 /* description */
 
