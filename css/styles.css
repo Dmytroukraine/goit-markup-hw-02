@@ -115,7 +115,6 @@ ul {list-style-type: none;}
     width: 126px;
     height: 48px;}         
 
-
 .button.primary {color: var(--second-text-color);
     background-color: var(--accent-color);}  
 .button.secondary {color: var(--accent-color);
@@ -125,7 +124,6 @@ background-color: var(--other-background-color) ;}
 .button.primary:focus {background-color: var(--accent-color);}
 .order:hover {color: var(--accent-color);}
 .order:focus {color: var(--second-text-color);}
-
 
 .button.primary:hover {color: var(--second-text-color);}
 .button.secondary:hover {color: var(--accent-color);}
@@ -215,7 +213,7 @@ background-color: var(--other-background-color) ;}
 
 
 
-        /* hiden title */
+/* hiden title */
 
     .hide {display: none;
         transition: all ease 0.8s;}    
