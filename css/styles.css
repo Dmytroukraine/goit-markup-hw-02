@@ -95,16 +95,12 @@ ul {list-style-type: none;}
     height: 51px;
     padding-left: 32px;}
 
-.button.all {width: 69px;
-    height: 48px;
-    padding: 8px 16px;}
+.button.all {padding: 8px 16px;
+    width: 69px;
+    height: 48px;}
 
 .button.web {padding: 8px 16px;
     width: 116px;
-    height: 48px;}
-
-.button.app {padding: 8px 16px;
-    width: 78px;
     height: 48px;}
 
 .button.app {padding: 8px 16px;
@@ -121,14 +117,25 @@ ul {list-style-type: none;}
 
 
 .button.primary {color: var(--second-text-color);
-    background-color: var(--accent-color);}    
+    background-color: var(--accent-color);}  
 .button.secondary {color: var(--accent-color);
 background-color: var(--other-background-color) ;}
 
-/* .button.primary:hover {color: var(--second-text-color);}
+.button.primary:hover {background-color: var(--second-text-color);}   
+.button.primary:focus {background-color: var(--accent-color);}
+.order:hover {color: var(--accent-color);}
+.order:focus {color: var(--second-text-color);}
+
+
+.button.primary:hover {color: var(--second-text-color);}
 .button.secondary:hover {color: var(--accent-color);}
 .button.primary:focus {color: var(--accent-color);}
-.button.secondary:focus {color: var(--second-text-color);} */
+.button.secondary:focus {color: var(--second-text-color);}
+
+.button.secondary:hover {background-color: var(--accent-color);} 
+.button.secondary:focus {background-color: var(--second-text-color);}
+.name:hover {color: var(--second-text-color);}
+.name:focus {color: var(--accent-color);} 
 
 /* description */
 
