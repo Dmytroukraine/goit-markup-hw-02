@@ -199,9 +199,9 @@ background-color: var(--other-background-color) ;}
 
 /* footer */
 
-    .footer {background: var(--title-text-color);}
-    .footer-studio {color: var(--other-background-color); }
-    .footer-text {
+.footer {background: var(--title-text-color);}
+.footer-studio {color: var(--other-background-color); }
+.footer-text {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -215,5 +215,5 @@ background-color: var(--other-background-color) ;}
 
 /* hiden title */
 
-    .hide {display: none;
+.hide {display: none;
         transition: all ease 0.8s;}    
