@@ -126,16 +126,16 @@ ul {list-style-type: none;}
     width: 126px;
     height: 48px;}         
 
-.button.primary {color: var(--second-text-color);
-    background-color: var(--accent-color);}  
-.button.secondary {color: var(--accent-color);
-    background-color: var(--other-background-color);}
+.button.primary {color: var(--second-text-color);background-color: var(--accent-color);}  
+.button.secondary {color: var(--accent-color);background-color: var(--other-background-color);}
+
 
 .button.primary:hover {background-color: var(--second-text-color); color: var(--accent-color);}   
-.button.primary:focus {background-color: var(--accent-color); color: var(--second-text-color);}
+.button.primary:focus {background-color: var(--second-text-color); color: var(--accent-color);}
 
-.button.secondary:hover {background-color: var(--accent-color);color: var(--second-text-color); }
-.button.secondary:focus {background-color: var(--second-text-color);color: var(--accent-color); }    
+.button.secondary:hover {color: var(--second-text-color); background-color: var(--accent-color); }
+.button.secondary:focus {color: var(--second-text-color); background-color: var(--accent-color);  }   
+
 
 /* description */
 
