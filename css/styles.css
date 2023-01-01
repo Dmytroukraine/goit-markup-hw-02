@@ -56,19 +56,6 @@ ul {list-style-type: none;}
 
 .nav .site .link:hover, .nav .site .link:focus {color:var(--accent-color);}  
 
-/* .nav .link{font-weight: 600;
-    color:var(--title-text-color);    
-    align-items: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase; 
-    text-decoration: none;}  
-.nav .link.current {color:var(--accent-color);}    
-.nav .link .current:hover,
-.nav .link:hover {color:var(--accent-color);}
-.nav .link.current:focus, 
-.nav .link:focus {color:var(--accent-color);} */
-
-
 .mail .address, .ul .style {color:var(--primary-text-color);
     text-decoration: none;} 
 .mail .address:hover  {color:var(--accent-color);}    
@@ -103,8 +90,6 @@ ul {list-style-type: none;}
     cursor: pointer;
     border: 0;}  
 
- 
-
 .button.all {padding: 8px 16px;
     width: 69px;
     height: 48px;}
@@ -128,13 +113,11 @@ ul {list-style-type: none;}
 .button.primary {color: var(--second-text-color);background-color: var(--accent-color);}  
 .button.secondary {color: var(--accent-color);background-color: var(--other-background-color);}
 
-
 .button.primary:hover {background-color: var(--second-text-color); color: var(--accent-color);}   
 .button.primary:focus {background-color: var(--second-text-color); color: var(--accent-color);}
 
 .button.secondary:hover {color: var(--second-text-color); background-color: var(--accent-color); }
 .button.secondary:focus {color: var(--second-text-color); background-color: var(--accent-color);  }   
-
 
 /* description */
 
