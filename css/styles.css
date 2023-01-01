@@ -155,8 +155,8 @@ ul {list-style-type: none;}
 /* footer */
 
 .footer {background: var(--title-text-color);}
-.footer-studio {color: var(--other-background-color); }
-.footer-text {color: #E7E9FC;}
+.footer.studio {color: var(--other-background-color); }
+.footer.text {color: #E7E9FC;}
 
 
 
