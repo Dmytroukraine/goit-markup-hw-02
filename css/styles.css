@@ -53,6 +53,8 @@ ul {list-style-type: none;}
         text-transform: uppercase; 
         text-decoration: none;}
 
+.work {text-decoration: none;}
+
 .nav .site .link:hover, .nav .site .link:focus {color:var(--accent-color);}  
 
 .mail .address, .ul .style {color:var(--primary-text-color);
