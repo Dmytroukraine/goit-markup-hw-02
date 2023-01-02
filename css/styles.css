@@ -18,13 +18,12 @@ html {box-sizing: border-box;}
 /* body */
 
 body {color:var(--primary-text-color);
-    background-color:var(--head-background-color);
+    background-color:var(--second-text-color);
     font-family: 'Roboto'; 
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,5;
-    letter-spacing: 0.02em;}
+    line-height: 1,5;}
 ul {list-style-type: none;}
 
 /* header */
